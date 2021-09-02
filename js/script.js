@@ -70,10 +70,10 @@ const showResults = (data) => {
     const div = document.createElement("div");
     div.className = "col";
     div.innerHTML = `
-        <div class="card border-0 shadow-lg" style="height:100%;border-radius: 30px;">
+        <div class="card border-0 shadow-lg" style="height:100%;border-radius: 20px;">
             ${
               item?.cover_i
-                ? `<img src=${imgUrl} class="h-75 w-75 mx-auto" alt="...">`
+                ? `<img src=${imgUrl} class="h-75 p-2 w-75 mx-auto" alt="...">`
                 : ""
             }
             <div class="card-body">
